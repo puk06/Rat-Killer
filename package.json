@@ -1,0 +1,10 @@
+{
+    "name": "Rat-Killer",
+    "version": "1.0.0",
+    "description": "RATを自動で排除するプログラムです。",
+    "author": "puk06",
+    "main": "index.js",
+    "dependencies": {
+        "discord.js":"14.15.3"
+    }
+}
