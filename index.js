@@ -119,10 +119,10 @@ function getUUID() {
 }
 
 function fakeSessionID() {
-    const text = "ey3hbGc101JIUzI1NiJ9.eyJ4dWlkIjoiMjUzNTQeNTMBNjU4MTcwMyIsImFnZyI6IkFkdwx@liwic3ViljoiZGZiZWVjVTktYjVwMyB0YmZmLWE3NzItYjQ10TMxYz1k0D131iwibmJmIjoxNjQ3NzU4NjIzLCJhdXRoIjoiWEJPWCIsInJvbGVzIjpbXSwiaXNzIjoiYXVBaGVudGljYXRpb24iLCJleHAiOjE2NDc4NDUwMjMsIm1hdC16MTYBNzc100YyMywicGxhdGZvcm@i0iJVTktOT1d0IiwieXVpZCI6ImN1OTE1MDAYYwVhYWMxMjhiYjliZWZkN2FmYzI4MRkIne. 980G1qhNVpPNpqkRpPSTOH2kaDoVxIRSLU3VZAJEDOR";
-    let test = "";
+    const SSID = "ey3hbGc101JIUzI1NiJ9.eyJ4dWlkIjoiMjUzNTQeNTMBNjU4MTcwMyIsImFnZyI6IkFkdwx@liwic3ViljoiZGZiZWVjVTktYjVwMyB0YmZmLWE3NzItYjQ10TMxYz1k0D131iwibmJmIjoxNjQ3NzU4NjIzLCJhdXRoIjoiWEJPWCIsInJvbGVzIjpbXSwiaXNzIjoiYXVBaGVudGljYXRpb24iLCJleHAiOjE2NDc4NDUwMjMsIm1hdC16MTYBNzc100YyMywicGxhdGZvcm@i0iJVTktOT1d0IiwieXVpZCI6ImN1OTE1MDAYYwVhYWMxMjhiYjliZWZkN2FmYzI4MRkIne. 980G1qhNVpPNpqkRpPSTOH2kaDoVxIRSLU3VZAJEDOR";
+    let text = "";
     for (let i = 0; i < 397; i++) {
-        test += text.charAt(Math.floor(Math.random() * text.length));
+        text += SSIDcharAt(Math.floor(Math.random() * SSID.length));
     }
     return text;
 }
